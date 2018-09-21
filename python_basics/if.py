@@ -1,3 +1,37 @@
+"""If” uses an expression to evaluate whether a statement is True or False. If it is True, it executes what is inside the “if” statement. For example:
+"""
+
+if True:
+  print("Hello Python If")
+
+if 2 > 1:
+  print("2 is greater than 1")
+
+"""2 is greater than 1, so the “print” code is executed.
+
+The “else” statement will be executed if the “if” expression is false."""
+
+if 1 > 2:
+  print("1 is greater than 2")
+else:
+  print("1 is not greater than 2")
+
+"""1 is not greater than 2, so the code inside the “else” statement will be executed."""
+
+"""you can use elif"""
+
+if 1 > 2:
+  print("1 is greater than 2")
+elif 2 > 1:
+  print("1 is not greater than 2")
+else:
+  print("1 is equal to 2")
+
+  
+
+
+
+
 number = 5
 if number ==5:
     print("Number is 5")
